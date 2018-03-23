@@ -6,7 +6,17 @@ $fontColor : #4a4d4f;
 
 $mainFont : 'Raleway', sans-serif;
 $headerFont:'Bentham', serif;
+
 // Global
+html, body {
+  height: 100%;
+}
+
+.bodyContent {
+  height: calc(100% - 105px);
+  overflow-y: auto;
+}
+
 .no-padding {
   padding: 0px;
 }
@@ -41,6 +51,8 @@ $headerFont:'Bentham', serif;
   font-variant: small-caps;
   font-weight: 600;
   font-size: 19px;
+  z-index: 3;
+  position: sticky;
 }
 
 .nav-components {
