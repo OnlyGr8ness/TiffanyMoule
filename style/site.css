@@ -6463,7 +6463,8 @@ html, body {
   margin: auto;
   position: relative;
   display: inline-block;
-  float: none; }
+  float: none;
+  text-align: center; }
 
 .navbar {
   height: 105px;
@@ -6492,7 +6493,10 @@ html, body {
   text-align: center; }
 
 .nav-center a:hover {
-  font-size: 20px; }
+  font-size: 21px; }
+
+.nav-center #active {
+  color: #DEBD66; }
 
 .logo-container {
   position: relative;
@@ -6533,13 +6537,19 @@ html, body {
   width: 22%;
   display: inline-block;
   vertical-align: top;
-  margin: 10px; }
+  margin: 10px;
+  height: auto;
+  text-align: left; }
 
 .card-content {
   font-family: "Raleway", sans-serif;
   margin-left: auto !important;
   margin-right: auto !important;
-  float: none; }
+  float: none;
+  height: 23em; }
+
+.card-title-img img {
+  width: 17em; }
 
 .card-image {
   width: 3vw !important;

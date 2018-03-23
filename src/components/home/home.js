@@ -23,7 +23,9 @@ export default class Home extends Component {
                       </div>
                       <div className="card-content">
                           <div className="content">
-                              <h5 className="card-title">Nutritional Guidance</h5>
+                            <div className="card-title-img centerAlign">
+                                <img alt="Nutritional Guidance" className="card-title-img" src="../assets/img/Nutritionalguidance.png" />
+                            </div>
                               <p className="card-text">Dieting is different for many, and not meant to be hard. Discover the best method to enjoy your favorite foods and still improve your health and weight. Learn the dynamics of macronutrient and micronutrient tracking or how to intuitively
                                   eat. Free yourself from binge eating.</p>
                           </div>
@@ -37,7 +39,9 @@ export default class Home extends Component {
                       </div>
                       <div className="card-content">
                           <div className="content">
-                              <h5 className="card-title">Workout Plans</h5>
+                          <div className="card-title-img centerAlign">
+                              <img alt="Workout Plans" className="card-title-img" src="../assets/img/workouttitle.png" />
+                          </div>
                               <p className="card-text">Offering both customized and printable workout plans (implemented in eBooks). There is no cookie cutter program in the customizable option. I listen to you, your struggles, your lifestyle &amp; goals, and what you desire most.
                                   This is what you need to conquer the idea that every body is designed the same. You are meant to thrive. </p>
                           </div>
@@ -46,12 +50,14 @@ export default class Home extends Component {
                   <div className="card">
                       <div className="card-image">
                           <figure className="image is-4by3">
-                              <img src="../assets/img/love.png" alt="nutrition" />
+                              <img src="../assets/img/love.png" alt="Love" />
                           </figure>
                       </div>
                       <div className="card-content">
                           <div className="content">
-                              <h5 className="card-title">Changing Your Mindset</h5>
+                          <div className="card-title-img centerAlign">
+                              <img alt="Changing Your Mindset" className="card-title-img" src="../assets/img/mindsettitle.png" />
+                          </div>
                               <p className="card-text">When you take care of yourself, you realize just how strong you can become. You are limitless. It is time for you to change your perspective and reach those goals. Put yourself first and lose the idea that you are not able to win.
                                   Why not you? </p>
                           </div>
@@ -60,12 +66,14 @@ export default class Home extends Component {
                   <div className="card">
                       <div className="card-image">
                           <figure className="image is-4by3">
-                              <img src="../assets/img/coachin.png" alt="nutrition" />
+                              <img src="../assets/img/coachin.png" alt="Coachin" />
                           </figure>
                       </div>
                       <div className="card-content">
                           <div className="content">
-                              <h5 className="card-title">One on One Coaching</h5>
+                          <div className="card-title-img centerAlign">
+                              <img alt="One on One Coaching" className="card-title-img" src="../assets/img/oneononetitle.png" />
+                          </div>
                               <p className="card-text">Receive guidance and support each week, along with bi-weekly video coaching calls. Let me guide you step by step to define your goals, find your motivation, and create lifelong habits. </p>
                           </div>
                       </div>

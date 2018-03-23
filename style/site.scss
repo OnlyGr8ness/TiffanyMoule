@@ -52,7 +52,7 @@ html, body {
   margin: auto;
   position: relative;
   display: inline-block;
-  float: none;
+  float: none; text-align: center;
 }
 
 //Nav Bar
@@ -87,7 +87,11 @@ html, body {
 }
 
 .nav-center a:hover {
-  font-size: 20px;
+  font-size: 21px;
+}
+
+.nav-center #active {
+  color: #DEBD66;
 }
 
 
@@ -144,12 +148,18 @@ html, body {
   display: inline-block;
   vertical-align: top;
   margin: 10px;
+  height: auto;
+  text-align: left;
 }
 .card-content {
   font-family: $mainFont;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none;
+  height: 23em;
+}
+.card-title-img img{
+  width: 17em;
 }
 
 .card-image {
