@@ -6514,6 +6514,9 @@ html, body {
 .padding-top-30 {
   padding: 30px 0 0 0; }
 
+.padding-10 {
+  padding: 10px; }
+
 .height-100 {
   height: 100%; }
 
@@ -6544,7 +6547,7 @@ html, body {
   position: relative; }
 
 .nav-item a {
-  color: #4a4d4f !important;
+  color: #4a4d4f;
   margin: auto;
   width: 95px;
   text-align: center; }
@@ -6552,8 +6555,8 @@ html, body {
 .nav-item a:hover {
   font-size: 21px; }
 
-.nav-center .active {
-  color: #DEBD66; }
+.active-nav {
+  color: #B17E34 !important; }
 
 .logo-container {
   position: relative;
@@ -6615,6 +6618,9 @@ html, body {
 .workout-card-img {
   width: 14em; }
 
+.dumbbellImgCard {
+  width: 6em !important; }
+
 .mind-card-img {
   width: 18em; }
 
@@ -6625,7 +6631,8 @@ html, body {
   height: 8vh; }
 
 .card-image img {
-  width: 50px; }
+  width: 4em;
+  margin: 7px; }
 
 .about {
   font-family: "Raleway", sans-serif;
