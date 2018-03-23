@@ -6550,7 +6550,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 150px;
   display: inline-block;
   position: relative;
-  background-color: #6b6b6b; }
+  background-color: #ced5d6; }
 
 .hero-container {
   width: 100%;
@@ -6567,11 +6567,13 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0 !important; }
 
 .card-deck {
+  font-family: "Raleway", sans-serif;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none; }
 
 .wide-card {
+  font-family: "Raleway", sans-serif;
   width: 350px !important; }
 
 .card-img-top {
@@ -6580,11 +6582,28 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 5px 15px 0 15px; }
 
 .about {
-  background-color: #E8E8E8; }
+  font-family: "Raleway", sans-serif;
+  background-color: #ced5d6; }
+
+.aboutSecHey {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: auto; }
 
 .about-sec {
+  font-family: "Bentham", serif;
+  color: #4a4d4f;
   font-variant: small-caps;
-  font-style: italic;
-  line-height: 55px; }
+  line-height: 55px;
+  font-size: 50px;
+  display: block;
+  position: relative; }
+
+.about-content {
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  color: #4a4d4f;
+  line-height: 1.9; }
 
 /*# sourceMappingURL=site.css.map */

@@ -47,10 +47,11 @@ export default class Home extends Component {
       </div>
       <div className="container-fluid about">
           <div className="row height-100 padding-5-percent">
-              <div className="col-md-10 mx-auto">
-                  <h3 className="about-sec">Hey, Im Tiffany</h3>
-                  <p>
-                      Health is more than about perfectly carved abs, eating endless salads, and shooting ACV. I believe in creating unique and easy ways to become healthy, decrease stress, and improve self-care. I want you to break free from dieting standards that cause mental and physical stress and learn strategies to overcome self-sabotage. <br /> I am passionate about teaching you healthy methods on nutrition, fitness, and overall teaching you to become a badass, self-loving, confident woman.
+              <div className="col-md-7 mx-auto">
+                  <img className="aboutSecHey" src="../assets/img/heyGorgeous.png" alt="Hey Gorgeous"  />
+                  <p className="about-sec">I&#39;m Tiffany</p>
+                  <p className="about-content">
+                      Health is more than about perfectly carved abs, eating endless salads, and shooting ACV. I believe in creating unique and easy ways to become healthy, decrease stress, and improve self-care. I want you to break free from dieting standards that cause mental and physical stress and learn strategies to overcome self-sabotage. I am passionate about teaching you healthy methods on nutrition, fitness, and overall teaching you to become a badass, self-loving, confident woman.
                   </p>
               </div>
 

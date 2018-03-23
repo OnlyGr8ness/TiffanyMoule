@@ -1,4 +1,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//variables
+$mainGrey : #ced5d6;
+$fontColor : #4a4d4f;
+
+$mainFont : 'Raleway', sans-serif;
+$headerFont:'Bentham', serif;
 // Global
 .no-padding {
   padding: 0px;
@@ -77,7 +84,7 @@
   height: 150px;
   display: inline-block;
   position: relative;
-  background-color: #6b6b6b;
+  background-color: $mainGrey;
 }
 
 //Home Page
@@ -101,12 +108,14 @@
 
 //Cards
 .card-deck {
+  font-family: $mainFont;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none;
 }
 
 .wide-card {
+  font-family: $mainFont;
   width: 350px !important;
 }
 
@@ -118,11 +127,30 @@
 
 //About Section
 .about {
-  background-color: #E8E8E8;
+  font-family: $mainFont;
+  background-color: $mainGrey;
+}
+
+.aboutSecHey {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: auto;
 }
 
 .about-sec {
+  font-family: $headerFont;
+  color: $fontColor;
   font-variant: small-caps;
-  font-style: italic;
   line-height: 55px;
+  font-size: 50px;
+  display: block;
+  position: relative;
+}
+
+.about-content {
+  font-family: $mainFont;
+  font-size: 19px;
+  color: $fontColor;
+  line-height: 1.9;
 }
