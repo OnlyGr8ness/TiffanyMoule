@@ -4,22 +4,18 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-          <div className="block">
-              <div className="hero hero-container is-fluid">
-                  <div className="hero-body no-padding">
-                      <div className="container is-fluid  no-margin">
-                          <img className="img-fluid hero" alt="Hero" src="../../../assets/img/pretty-woman-1509956_1920.jpg" />
-                      </div>
+          <div className="container-fluid hero-container">
+              <div className="hero-body no-padding">
+                  <div className="container-fluid  no-margin no-padding">
+                      <img className="img-fluid hero" alt="Hero" src="../../../assets/img/pretty-woman-1509956_1920.jpg" />
                   </div>
               </div>
           </div>
-          <div className="container is-fluid">
-              <div className="block centerAlign">
+          <div className="container-fluid">
+              <div className="centerAlign">
                   <div className="card">
                       <div className="card-image">
-                          <figure className="image is-4by3">
-                              <img src="../assets/img/nutrit.png" alt="nutrition" />
-                          </figure>
+                          <img src="../assets/img/nutrit.png" alt="nutrition" />                
                       </div>
                       <div className="card-content">
                           <div className="content">

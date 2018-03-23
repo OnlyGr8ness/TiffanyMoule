@@ -1,9 +1,8 @@
-@import "../node_modules/bulma/bulma.sass";
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
 
 //variables
 $mainGrey : #ced5d6;
 $fontColor : #4a4d4f;
-
 $mainFont : 'Raleway', sans-serif;
 $headerFont:'Bentham', serif;
 
@@ -57,40 +56,35 @@ html, body {
 
 //Nav Bar
 .navbar {
-  height: 105px;
+  height: 6em;
   font-variant: small-caps;
   font-weight: 600;
   font-size: 19px;
   z-index: 3;
   position: sticky;
+  background-color: $mainGrey !important;
 }
 
 .navbar-brand {
   padding: 0 25px;
 }
 
-.nav-center {
-  display: inherit;
-  margin-right: auto;
-  margin-left: auto;
-  width: auto;
+.nav-item {
   position: relative;
-  height: auto;
-  float: none;
 }
 
-.nav-center a {
-  color: $fontColor;
+.nav-item a {
+  color: $fontColor !important;
   margin: auto;
   width: 95px;
   text-align: center;
 }
 
-.nav-center a:hover {
+.nav-item a:hover {
   font-size: 21px;
 }
 
-.nav-center #active {
+.nav-center .active {
   color: #DEBD66;
 }
 
@@ -111,6 +105,7 @@ html, body {
   margin: auto;
   display: inline-block;
   text-align: center;
+  padding: 2em 0 0 0;
 }
 
 //Footer
@@ -150,14 +145,18 @@ html, body {
   margin: 10px;
   height: auto;
   text-align: left;
-  min-height: 25em;
+  min-height: 22em;
 }
+
 .card-content {
   font-family: $mainFont;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none;
-  height: 23em;
+}
+
+.card-title-img img {
+  padding: 0 0 10px 0;
 }
 
 .nutrition-card-img {
@@ -169,7 +168,7 @@ html, body {
 }
 
 .mind-card-img {
-  width: 20em;
+  width: 18em;
 }
 
 .coach-card-img {
@@ -177,9 +176,11 @@ html, body {
 }
 
 .card-image {
-  width: 3vw !important;
-  height: 4vh;
-  margin: 5px 15px 0 15px;
+  height: 8vh;
+}
+
+.card-image img{
+  width: 50px
 }
 
 //About Section
