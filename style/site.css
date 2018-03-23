@@ -6458,10 +6458,14 @@ html, body {
 .padding-5-percent {
   padding: 5%; }
 
-.container-fluid {
-  padding: 0 !important; }
+.centerAlign {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  float: none; }
 
-.nav-bar {
+.navbar {
   height: 105px;
   font-variant: small-caps;
   font-weight: 600;
@@ -6469,19 +6473,26 @@ html, body {
   z-index: 3;
   position: sticky; }
 
-.nav-components {
-  position: relative;
-  display: flex;
+.navbar-brand {
+  padding: 0 25px; }
+
+.nav-center {
+  display: inherit;
   margin-right: auto;
   margin-left: auto;
-  float: none;
+  width: auto;
+  position: relative;
+  height: auto;
+  float: none; }
+
+.nav-center a {
+  color: #4a4d4f;
+  margin: auto;
+  width: 95px;
   text-align: center; }
 
-.nav-components ul li {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  padding: 0 20px; }
+.nav-center a:hover {
+  font-size: 20px; }
 
 .logo-container {
   position: relative;
@@ -6518,17 +6529,19 @@ html, body {
   max-height: 80vh;
   padding: 0 !important; }
 
-.card-deck {
+.card {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px; }
+
+.card-content {
   font-family: "Raleway", sans-serif;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none; }
 
-.wide-card {
-  font-family: "Raleway", sans-serif;
-  width: 350px !important; }
-
-.card-img-top {
+.card-image {
   width: 3vw !important;
   height: 4vh;
   margin: 5px 15px 0 15px; }

@@ -47,12 +47,16 @@ html, body {
   padding: 5%;
 }
 
-.container-fluid {
-  padding: 0 !important;
+.centerAlign {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  float: none;
 }
 
 //Nav Bar
-.nav-bar {
+.navbar {
   height: 105px;
   font-variant: small-caps;
   font-weight: 600;
@@ -61,21 +65,31 @@ html, body {
   position: sticky;
 }
 
-.nav-components {
-  position: relative;
-  display: flex;
+.navbar-brand {
+  padding: 0 25px;
+}
+
+.nav-center {
+  display: inherit;
   margin-right: auto;
   margin-left: auto;
+  width: auto;
+  position: relative;
+  height: auto;
   float: none;
+}
+
+.nav-center a {
+  color: $fontColor;
+  margin: auto;
+  width: 95px;
   text-align: center;
 }
 
-.nav-components ul li {
-  margin: 0;
-  padding: 0;
+.nav-center a:hover {
   font-size: 20px;
-  padding: 0 20px;
 }
+
 
 //Logo
 
@@ -125,19 +139,20 @@ html, body {
 }
 
 //Cards
-.card-deck {
+.card {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+}
+.card-content {
   font-family: $mainFont;
   margin-left: auto !important;
   margin-right: auto !important;
   float: none;
 }
 
-.wide-card {
-  font-family: $mainFont;
-  width: 350px !important;
-}
-
-.card-img-top {
+.card-image {
   width: 3vw !important;
   height: 4vh;
   margin: 5px 15px 0 15px;
