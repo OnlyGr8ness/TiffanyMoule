@@ -150,6 +150,7 @@ html, body {
   margin: 10px;
   height: auto;
   text-align: left;
+  min-height: 25em;
 }
 .card-content {
   font-family: $mainFont;
@@ -158,8 +159,21 @@ html, body {
   float: none;
   height: 23em;
 }
-.card-title-img img{
+
+.nutrition-card-img {
   width: 17em;
+}
+
+.workout-card-img {
+  width: 14em;
+}
+
+.mind-card-img {
+  width: 20em;
+}
+
+.coach-card-img {
+  width: 13em;
 }
 
 .card-image {
