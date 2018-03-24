@@ -43,9 +43,7 @@ export default class Home extends Component {
                   </div>
                   <div className="card">
                       <div className="card-image">
-                          <figure className="image is-4by3">
-                              <img src="../assets/img/love.png" alt="Love" />
-                          </figure>
+                            <img src="../assets/img/love.png" alt="Love" />
                       </div>
                       <div className="card-content">
                           <div className="content">
@@ -73,7 +71,7 @@ export default class Home extends Component {
               </div>
           </div>
           <div className="container-fluid about">
-              <div className="row height-100 padding-5-percent">
+              <div className="row height-100 padding-3-percent">
                   <div className="col-md-7 mx-auto">
                       <img className="aboutSecHey" src="../assets/img/heyGorgeous.png" alt="Hey Gorgeous" />
                       <p className="about-sec">I&#39;m Tiffany</p>
