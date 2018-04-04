@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Shop extends Component {
-  render() {
-    return (
-      <div>
-
-      </div>
-    );
-  }
+class Shop extends React.Component {
+	render() {		
+		return(
+			<p>This is the Shop Component </p>
+		)
+	}
 }
+
+export default Shop;
